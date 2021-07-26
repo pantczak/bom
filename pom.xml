@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>pl.pantczak</groupId>
+    <artifactId>bom</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Piotr Antczak</name>
+            <url>https://github.com/pantczak</url>
+            <id>pantczak</id>
+        </developer>
+    </developers>
+
+    <issueManagement>
+        <system>GitHub Issue Tracker</system>
+        <url>https://github.com/pantczak/bom/issues</url>
+    </issueManagement>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring.boot.version>2.5.3</spring.boot.version>
+        <jjwt.version>0.9.1</jjwt.version>
+        <springfox-swagger2.version>3.0.0</springfox-swagger2.version>
+        <!--        TODO-->
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-parent</artifactId>
+                <version>${spring.boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${springfox-swagger2.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${springfox-swagger2.version}</version>
+            </dependency>
+        </dependencies>
+
+        <!--        TODO-->
+    </dependencyManagement>
+
+</project>
