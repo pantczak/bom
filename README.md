@@ -21,7 +21,7 @@ There are two main ways to use this BOM file
     
     <parent>
         <groupId>com.pantczak</groupId>
-        <artifactId>pantczak-BOM</artifactId>
+        <artifactId>bom</artifactId>
         <version>0.0.1</version>
     </parent>
     
@@ -43,7 +43,7 @@ There are two main ways to use this BOM file
         <dependencies>
             <dependency>
                 <groupId>com.pantczak</groupId>
-                <artifactId>pantczak-BOM</artifactId>
+                <artifactId>bom</artifactId>
                 <version>0.0.1</version>
                 <type>pom</type>
                 <scope>import</scope>
