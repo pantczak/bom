@@ -5,6 +5,10 @@ This repository contains Bill of Materials (BOM) POM for my projects.
 Main goal for creating this repository was to streamline dependency management. (as it is a well known common annoyance)
 That's why Travis CI along with GitHub Dependabot were used. (apart from whole no versions in pom.xml needed)
 
+## Status
+
+[![CircleCI](https://circleci.com/gh/pantczak/bom?style=svg)](https://circleci.com/gh/pantczak/bom)
+
 ## Usage
 
 There are two main ways to use this BOM file
