@@ -7,7 +7,7 @@ That's why Travis CI along with GitHub Dependabot were used. (apart from whole n
 
 ## Status
 
-[![CircleCI](https://circleci.com/gh/pantczak/bom?style=svg)](https://circleci.com/gh/pantczak/bom)
+[![CircleCI](https://circleci.com/gh/pantczak/bom.svg?style=svg)](https://circleci.com/gh/pantczak/bom)
 
 ## Usage
 
